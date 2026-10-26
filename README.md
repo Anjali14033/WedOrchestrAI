@@ -54,8 +54,8 @@ The command-line workflow logs subagent initialization, main-agent execution, Op
 
 ### CLI Generated Plan
 
-![CLI generated wedding plan](<screenshots/<img width="1539" height="673" alt="CLI Generated Plan" src="https://github.com/user-attachments/assets/9b41c027-332a-49a8-bfaf-f0487b8d23d5" />
-)
+<img width="1539" height="673" alt="CLI Generated Plan" src="https://github.com/user-attachments/assets/9b41c027-332a-49a8-bfaf-f0487b8d23d5" />
+
 
 The CLI output returns a practical planning response with budget allocation, venue concepts, vendor suggestions, and tradeoffs.
 
@@ -63,8 +63,8 @@ The CLI output returns a practical planning response with budget allocation, ven
 
 ### Live Streamlit Execution
 
-![Streamlit running state](<screenshots/<img width="1254" height="360" alt="Live Streamlit Execution" src="https://github.com/user-attachments/assets/11e83bdf-6698-4700-82c9-679b54781cd3" />
-)
+<img width="1254" height="360" alt="Live Streamlit Execution" src="https://github.com/user-attachments/assets/11e83bdf-6698-4700-82c9-679b54781cd3" />
+
 
 During generation, the app reports progress while preparing the planner prompt, loading dependencies, delegating research, and synthesizing the plan.
 
@@ -72,8 +72,8 @@ During generation, the app reports progress while preparing the planner prompt, 
 
 ### Generated Plan
 
-![Generated plan tab](<screenshots/<img width="1264" height="793" alt="Generated Output" src="https://github.com/user-attachments/assets/c38711cb-09cb-457e-bdda-f05a134fb8d6" />
-)
+<img width="1264" height="793" alt="Generated Output" src="https://github.com/user-attachments/assets/c38711cb-09cb-457e-bdda-f05a134fb8d6" />
+
 
 The final plan is rendered inline with metrics for runtime, brief length, and saved runs.
 
@@ -81,11 +81,11 @@ The final plan is rendered inline with metrics for runtime, brief length, and sa
 
 ### Input Brief and Architecture Tabs
 
-![Input brief tab](<screenshots/<img width="1095" height="690" alt="Input Brief Tab" src="https://github.com/user-attachments/assets/e5e8ec1c-6093-4d43-b344-d24a4349e8fd" />
-)
+<img width="1095" height="690" alt="Input Brief Tab" src="https://github.com/user-attachments/assets/e5e8ec1c-6093-4d43-b344-d24a4349e8fd" />
 
-![Architecture tab](<screenshots/<img width="1119" height="341" alt="Architecture Tab" src="https://github.com/user-attachments/assets/8bfa2da4-11f3-44d0-b0dc-6e93f6dc1b99" />
-)
+
+<img width="1119" height="341" alt="Architecture Tab" src="https://github.com/user-attachments/assets/8bfa2da4-11f3-44d0-b0dc-6e93f6dc1b99" />
+
 
 The app keeps the exact structured prompt visible for review and includes an architecture tab showing how the UI, planner agent, delegation tools, subagents, and Tavily search connect.
 
@@ -168,11 +168,11 @@ The design keeps responsibilities small: `models.py` owns model setup, `tools.py
 MultiAgent_Wedding_Planner_With_Langchain/
 |
 +-- app.py                 # Streamlit application
-+-- main.py                # CLI entry point
++-- mainagent.py           # CLI entry point
 +-- agents.py              # Subagents and delegation tools
 +-- tools.py               # Tavily search tool
 +-- models.py              # OpenAI model initialization
-+-- prompts.py             # Prompt templates
++-- prompt.py              # Prompt templates
 +-- pyproject.toml         # Project metadata and dependencies
 +-- uv.lock                # Locked dependency graph
 +-- README.md              # Project documentation
@@ -210,7 +210,7 @@ pip install uv
 ### 1. Clone the repository
 
 ```bash
-git https://github.com/Mohamad-Hachem/MultiAgent_Wedding_Planner_With_Langchain.git
+git https://github.com/Anjali14033/WedOrchestrAI.git
 cd MultiAgent_Wedding_Planner_With_Langchain
 ```
 
