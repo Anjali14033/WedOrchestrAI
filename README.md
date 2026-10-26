@@ -36,7 +36,7 @@ The project includes two ways to run the planner:
 
 ### Streamlit Planning Workspace
 
-![Streamlit planning workspace](screenshots/<img width="1920" height="1634" alt="Streamlit Planning Workspace" src="https://github.com/user-attachments/assets/c8ed9a39-1bcb-45fd-8994-70d2a18dd300" />
+<img width="1920" height="1634" alt="Streamlit Planning Workspace" src="https://github.com/user-attachments/assets/c8ed9a39-1bcb-45fd-8994-70d2a18dd300" />
 )
 
 The main interface collects the wedding brief, shows runtime readiness for OpenAI and Tavily, exposes demo controls, and summarizes the active architecture.
