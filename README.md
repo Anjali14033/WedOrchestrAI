@@ -37,7 +37,7 @@ The project includes two ways to run the planner:
 ### Streamlit Planning Workspace
 
 <img width="1920" height="1634" alt="Streamlit Planning Workspace" src="https://github.com/user-attachments/assets/c8ed9a39-1bcb-45fd-8994-70d2a18dd300" />
-)
+
 
 The main interface collects the wedding brief, shows runtime readiness for OpenAI and Tavily, exposes demo controls, and summarizes the active architecture.
 
@@ -45,8 +45,8 @@ The main interface collects the wedding brief, shows runtime readiness for OpenA
 
 ### CLI Agent Run
 
-![CLI agent orchestration](<screenshots/<img width="1532" height="691" alt="CLI Agent Run" src="https://github.com/user-attachments/assets/fb436550-5c0f-4633-a334-6c0b19c368c1" />
-)
+<img width="1532" height="691" alt="CLI Agent Run" src="https://github.com/user-attachments/assets/fb436550-5c0f-4633-a334-6c0b19c368c1" />
+
 
 The command-line workflow logs subagent initialization, main-agent execution, OpenAI requests, and Tavily-backed research queries.
 
