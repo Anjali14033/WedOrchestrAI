@@ -45,7 +45,8 @@ The main interface collects the wedding brief, shows runtime readiness for OpenA
 
 ### CLI Agent Run
 
-![CLI agent orchestration](<screenshots/Screenshot 2026-05-28 164407.png>)
+![CLI agent orchestration](<screenshots/<img width="1532" height="691" alt="CLI Agent Run" src="https://github.com/user-attachments/assets/fb436550-5c0f-4633-a334-6c0b19c368c1" />
+)
 
 The command-line workflow logs subagent initialization, main-agent execution, OpenAI requests, and Tavily-backed research queries.
 
@@ -53,7 +54,8 @@ The command-line workflow logs subagent initialization, main-agent execution, Op
 
 ### CLI Generated Plan
 
-![CLI generated wedding plan](<screenshots/Screenshot 2026-05-28 164432.png>)
+![CLI generated wedding plan](<screenshots/<img width="1539" height="673" alt="CLI Generated Plan" src="https://github.com/user-attachments/assets/9b41c027-332a-49a8-bfaf-f0487b8d23d5" />
+)
 
 The CLI output returns a practical planning response with budget allocation, venue concepts, vendor suggestions, and tradeoffs.
 
@@ -61,7 +63,8 @@ The CLI output returns a practical planning response with budget allocation, ven
 
 ### Live Streamlit Execution
 
-![Streamlit running state](<screenshots/Screenshot 2026-05-28 170330.png>)
+![Streamlit running state](<screenshots/<img width="1254" height="360" alt="Live Streamlit Execution" src="https://github.com/user-attachments/assets/11e83bdf-6698-4700-82c9-679b54781cd3" />
+)
 
 During generation, the app reports progress while preparing the planner prompt, loading dependencies, delegating research, and synthesizing the plan.
 
@@ -69,7 +72,8 @@ During generation, the app reports progress while preparing the planner prompt, 
 
 ### Generated Plan
 
-![Generated plan tab](<screenshots/Screenshot 2026-05-28 170742.png>)
+![Generated plan tab](<screenshots/<img width="1264" height="793" alt="Generated Output" src="https://github.com/user-attachments/assets/c38711cb-09cb-457e-bdda-f05a134fb8d6" />
+)
 
 The final plan is rendered inline with metrics for runtime, brief length, and saved runs.
 
@@ -77,9 +81,11 @@ The final plan is rendered inline with metrics for runtime, brief length, and sa
 
 ### Input Brief and Architecture Tabs
 
-![Input brief tab](<screenshots/Screenshot 2026-05-28 170811.png>)
+![Input brief tab](<screenshots/<img width="1095" height="690" alt="Input Brief Tab" src="https://github.com/user-attachments/assets/e5e8ec1c-6093-4d43-b344-d24a4349e8fd" />
+)
 
-![Architecture tab](<screenshots/Screenshot 2026-05-28 170821.png>)
+![Architecture tab](<screenshots/<img width="1119" height="341" alt="Architecture Tab" src="https://github.com/user-attachments/assets/8bfa2da4-11f3-44d0-b0dc-6e93f6dc1b99" />
+)
 
 The app keeps the exact structured prompt visible for review and includes an architecture tab showing how the UI, planner agent, delegation tools, subagents, and Tavily search connect.
 
